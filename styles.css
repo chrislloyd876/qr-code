@@ -1,0 +1,42 @@
+body{
+    background-color: hsl(212, 45%, 89%);
+    box-sizing: border-box;
+}
+
+.attribution 
+{ font-size: 15px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.qr-code{
+    background-color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10%;
+    font-family: "Outfit";
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10%;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.light{
+    font-weight: 400;
+    color: hsl(216, 15%, 48%);
+}
