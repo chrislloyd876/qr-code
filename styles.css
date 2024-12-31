@@ -1,6 +1,11 @@
 body{
     background-color: hsl(212, 45%, 89%);
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .attribution 
@@ -11,20 +16,13 @@ body{
     color: hsl(228, 45%, 44%); 
 }
 
-.container{
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
 .qr-code{
     background-color: white;
     width: 250px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10%;
     font-family: "Outfit";
+    margin: 50px;
 }
 
 img{
@@ -34,6 +32,7 @@ img{
 
 .bold{
     font-weight: 700;
+    font-size: 22px;
 }
 
 .light{
